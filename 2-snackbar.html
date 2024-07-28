@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAPtJREFUWEftlkESgyAMRfFm7claT9berPU7xIE0QBJEpzOyYSN5LwGCUzh5TJ38Z1xPszlcjwCgj0icl9kl4RVI4ZS1S8IjIMHdElaBGtwlYRHQwM0SWgEL3CShEfDA1RItgR64SqIm0IK/Qwi4ehjoB7dKFype0ZJACw7WfYFCAgPwV6MNihKSgAbuEcCaHwkuoIUjmGUL0uJkEqmABW5+dNiCTYIEjoRntwMCZ8A3iZIASkRPbW+504x5zFnaAtqfz17kGIcnu3L4IcS39GMxQiCNv3JqnXCUQFbYS+CvK8DlW2dGTLanApfAVYHhFdj5KZDDtf6Kh0t8AVo9QiFbe6zUAAAAAElFTkSuQmCC" type="image/svg+xml" />
+    <title>Task_2</title>
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Normalize -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+    />
+
+    
+    <script type="module" crossorigin src="/goit-advancedjs-hw-02/commonHelpers2.js"></script>
+    <link rel="modulepreload" crossorigin href="/goit-advancedjs-hw-02/assets/modulepreload-polyfill-3cfb730f.js">
+    <link rel="modulepreload" crossorigin href="/goit-advancedjs-hw-02/assets/vendor-77e16229.js">
+    <link rel="stylesheet" href="/goit-advancedjs-hw-02/assets/vendor-7a007824.css">
+    <link rel="stylesheet" href="/goit-advancedjs-hw-02/assets/styles-af74eef3.css">
+  </head>
+
+  <body>
+    <section>
+      <div class="div-back">
+        <a class="link-back" href="./index.html">Go back</a>
+      </div>
+
+      <form class="form">
+        <label class="label-delay">
+          Delay (ms)
+          <input class="input-delay" type="number" name="delay" required />
+        </label>
+
+        <fieldset class="fieldset">
+          <legend>State</legend>
+          <label>
+            <input type="radio" name="state" value="fulfilled" required />
+            Fulfilled
+          </label>
+          <label>
+            <input type="radio" name="state" value="rejected" required />
+            Rejected
+          </label>
+        </fieldset>
+
+        <button type="submit">Create notification</button>
+      </form>
+    </section>
+    
+  </body>
+</html>
